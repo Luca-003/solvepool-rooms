@@ -1,0 +1,32 @@
+name: New room
+description: Share a distilled, anonymized solution to a recurring problem
+title: "State the problem in one sentence"
+labels: ["room"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Keep the five headings and the final marker. No emails, keys, personal paths or company names: use {{variables}}.
+  - type: textarea
+    id: body
+    attributes:
+      label: Room
+      value: |
+        ## Problem
+
+
+        ## Solution
+
+
+        ## Open variables
+        - variable — what it means · typical values
+
+        ## Verification
+
+
+        ## Example prompts
+        -
+
+        <!-- solvepool:v1 -->
+    validations:
+      required: true
